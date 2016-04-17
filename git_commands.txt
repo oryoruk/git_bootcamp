@@ -1,7 +1,9 @@
-git init:create repo
+git init (create repo in the directory)
+git clone username@host:/path/to/repository
 git status
 git log
 git diff
+git diff SOURCE_BRANCH TARGET_BRANCH
 git diff HEAD (diff with most recent commit)
 git diff --staged (diff with staged differencess)
 git reset FILE_NAME (unstage)
@@ -24,3 +26,4 @@ git push
 git pull origin master
 git merge BRANCH_NAME (should be done in master)
 git branch -d BRANCH_NAME (delete branch)
+gitk GUI
