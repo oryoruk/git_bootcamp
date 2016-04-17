@@ -7,15 +7,20 @@ git diff --staged (diff with staged differencess)
 git reset FILE_NAME (unstage)
 git add FILE_NAME
 git add "*.xyz"
+git add . (stage all new files and changed tracked files, ignore deleted tracked files)
+git add -A (stage all files)
+git add -u (stage all changed/deleted tracked files while ignoring untracked(new) files)
+git rm --cached FILE_NAME (remove from repo, keep file)
+git rm --cached -r FOLDER_NAME (remove from repo, keep folder)
 git commit -m "COMMIT_MESSAGE"
 git branch (check what branches there are, which branch you're in)
 git branch BRANCH_NAME
 git checkout BRANCH_NAME
-git rm FILE_NAME / "*.txt" (remove and stage removals)
+git rm FILE_NAME / "*.txt" (remove and stage removals, while deleting the file in the branch)
 git checkout -- FILE_NAME (change file to previous commit)
 git remote add origin https://github.com/oryoruk/REPO_NAME.git
 git push -u origin master
 git push
 git pull origin master
-git merge BRANCH_NAME (should be done in master??)
+git merge BRANCH_NAME (should be done in master)
 git branch -d BRANCH_NAME (delete branch)

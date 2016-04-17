@@ -1,7 +1,7 @@
 Here are the git habits that I want to instill:
 (simple if/else decisions, so that I don't have to decide on the fly)
 
-CREATA A GIT REPO: git init
+CREATE A GIT REPO: git init
 ________________________________________
 
 -if source code, text file
@@ -16,34 +16,34 @@ ________________________________________
 
 
 
-
-ADD FILE TO REPO: git add
+ADD FILE TO REPO: git add FILE_NAME
 ________________________________________
 
+-if file is an evolving, text based part of the repo (initial add, to track)
+-if file has been updated in this sitting
 
 
 
-
-
-COMMIT CHANGES TO REPO: git commit
+COMMIT CHANGES TO REPO: git commit -m "COMMIT MESSAGE"
 ________________________________________
--Did I change a set : git commit
 
+-if a set of interrelated, connected updates have been made
 
 
 
 CREATE A BRANCH: git branch branch_name
 ________________________________________
 
--making changes, but not sure if you'll keep them
--making changes, but wanna keep a working copy
-
-
-
+-if about to make changes, but not sure if you'll keep them
+-if about to make changes, but wanna keep a working copy just in case
 
 
 PUSH COMMITS TO ORIGIN: git push
 ________________________________________
+
+-if it has been a while
+-if you will continue working on it on a different machine
+-if in collaboration
 
 
 
