@@ -1,0 +1,23 @@
+Here are the git habits that I should develop:
+
+git init
+
+-source code, text file, that will change over time
+-source code, text file, that you might make publicly available
+
+git add
+
+git commit
+
+git branch
+
+
+git push
+
+
+-Did I change a set : git commit
+-making changes, but not sure if you'll keep them:      git branch
+-making changes, but wanna keep a working copy:         git branch
+
+-git push
+
