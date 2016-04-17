@@ -1,0 +1,21 @@
+git init:create repo
+git status
+git log
+git diff
+git diff HEAD (diff with most recent commit)
+git diff --staged (diff with staged differencess)
+git reset FILE_NAME (unstage)
+git add FILE_NAME
+git add "*.xyz"
+git commit -m "COMMIT_MESSAGE"
+git branch (check what branches there are, which branch you're in)
+git branch BRANCH_NAME
+git checkout BRANCH_NAME
+git rm FILE_NAME / "*.txt" (remove and stage removals)
+git checkout -- FILE_NAME (change file to previous commit)
+git remote add origin https://github.com/oryoruk/REPO_NAME.git
+git push -u origin master
+git push
+git pull origin master
+git merge BRANCH_NAME (should be done in master??)
+git branch -d BRANCH_NAME (delete branch)

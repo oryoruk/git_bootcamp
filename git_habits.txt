@@ -1,23 +1,49 @@
-Here are the git habits that I should develop:
+Here are the git habits that I want to instill:
+(simple if/else decisions, so that I don't have to decide on the fly)
 
-git init
+CREATA A GIT REPO: git init
+________________________________________
 
--source code, text file, that will change over time
--source code, text file, that you might make publicly available
-
-git add
-
-git commit
-
-git branch
-
-
-git push
+-if source code, text file
+    -that is likely to change over time
+    -that you might want to make publicly available at some point (publication, presentation, meetings, on the website, etc.)
+    -that is part of a collaborative effort
+    -that you are working on on different machines
+-else:
+    -files that will remain the same no matter what
+    -binary files: word, 
 
 
+
+
+
+ADD FILE TO REPO: git add
+________________________________________
+
+
+
+
+
+
+COMMIT CHANGES TO REPO: git commit
+________________________________________
 -Did I change a set : git commit
--making changes, but not sure if you'll keep them:      git branch
--making changes, but wanna keep a working copy:         git branch
 
--git push
+
+
+
+CREATE A BRANCH: git branch branch_name
+________________________________________
+
+-making changes, but not sure if you'll keep them
+-making changes, but wanna keep a working copy
+
+
+
+
+
+PUSH COMMITS TO ORIGIN: git push
+________________________________________
+
+
 
