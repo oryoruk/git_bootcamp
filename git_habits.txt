@@ -27,7 +27,7 @@ ________________________________________
 COMMIT CHANGES TO REPO: git commit -m "COMMIT MESSAGE"
 ________________________________________
 
--if a set of interrelated, connected updates have been made
+-if a set of interrelated, connected updates have been made, lump them & commit them
 
 
 
@@ -44,6 +44,12 @@ ________________________________________
 -if it has been a while
 -if you will continue working on it on a different machine
 -if in collaboration
+
+
+
+FORK AN EXISTING REPO
+________________________________________
+
 
 
 
