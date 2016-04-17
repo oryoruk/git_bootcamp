@@ -1,3 +1,4 @@
+SHELL:
 git init (create repo in the directory)
 git clone username@host:/path/to/repository
 git status
@@ -27,3 +28,11 @@ git pull origin master
 git merge BRANCH_NAME (should be done in master)
 git branch -d BRANCH_NAME (delete branch)
 gitk GUI
+
+
+OTHER:
+.gitignore
+
+
+GITHUB SPECIFIC:
+fork
