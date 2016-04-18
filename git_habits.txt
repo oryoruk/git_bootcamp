@@ -3,22 +3,26 @@ Here are the git habits that I want to instill:
 
 CREATE A GIT REPO: git init
 ________________________________________
-
--if source code, text file
+-if source code or text file
     -that is likely to change over time
     -that you might want to make publicly available at some point (publication, presentation, meetings, on the website, etc.)
     -that is part of a collaborative effort
     -that you are working on on different machines
+-if you find yourself creating copies of a file with different names
 -else:
     -files that will remain the same no matter what
     -binary files: word, 
 
 
+PRIVATE REPO?
+________________________________________
+-if related to ongoing course (make it public after course completion)
+-if entails private personal information (make it public after separating outputs)
+-if super scoopable research project
 
 
 ADD FILE TO REPO: git add FILE_NAME
 ________________________________________
-
 -if file is an evolving, text based part of the repo (initial add, to track)
 -if file has been updated in this sitting
 
@@ -26,29 +30,28 @@ ________________________________________
 
 COMMIT CHANGES TO REPO: git commit -m "COMMIT MESSAGE"
 ________________________________________
-
--if a set of interrelated, connected updates have been made, lump them & commit them
+-if a set of interrelated, connected updates were made, lump them & commit them
 
 
 
 CREATE A BRANCH: git branch branch_name
 ________________________________________
-
 -if about to make changes, but not sure if you'll keep them
 -if about to make changes, but wanna keep a working copy just in case
 
 
 PUSH COMMITS TO ORIGIN: git push
 ________________________________________
-
 -if it has been a while
 -if you will continue working on it on a different machine
--if in collaboration
+-if in collaboration with someone else
+-if it must be made publicly immediately
 
 
 
 FORK AN EXISTING REPO
 ________________________________________
+-if you can change bits of an existing repo
 
 
 
