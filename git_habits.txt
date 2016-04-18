@@ -18,7 +18,7 @@ PRIVATE REPO?
 ________________________________________
 -if related to ongoing course (make it public after course completion)
 -if entails private personal information (make it public after separating outputs)
--if super scoopable research project
+-if super scoopable research project (then again who would care about the projects of a random grad student)
 
 
 ADD FILE TO REPO: git add FILE_NAME
