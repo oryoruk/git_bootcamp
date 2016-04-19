@@ -3,10 +3,11 @@ git init (create repo in the directory)
 git clone username@host:/path/to/repository
 git status
 git log
-git diff
+git diff (difference between working tree and index/staged)
 git diff SOURCE_BRANCH TARGET_BRANCH
-git diff HEAD (diff with most recent commit)
-git diff --staged (diff with staged differencess)
+git diff HEAD (diff of working tree with most recent commit)
+git diff --staged (diff with staged differencess) (?)
+git diff --cached (diff with index and last commit)
 git reset FILE_NAME (unstage)
 git add FILE_NAME
 git add "*.xyz"
