@@ -14,8 +14,8 @@ git add "*.xyz"
 git add . (stage all new files and changed tracked files, ignore deleted tracked files)
 git add -A (stage all files)
 git add -u (stage all changed/deleted tracked files while ignoring untracked(new) files)
-git rm --cached FILE_NAME (remove from repo, keep file)
-git rm --cached -r FOLDER_NAME (remove from repo, keep folder)
+git rm --cached FILE_NAME (remove file from repo, keep file on disk)
+git rm --cached -r FOLDER_NAME (remove foldel from repo, keep folder on disk)
 git commit -m "COMMIT_MESSAGE"
 git branch (check what branches there are, which branch you're in)
 git branch BRANCH_NAME
