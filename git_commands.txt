@@ -2,6 +2,7 @@ SHELL:
 git init (create repo in the directory)
 git clone username@host:/path/to/repository
 git status
+git ls-tree --full-tree -r HEAD (lists all the files being tracked in the repo)
 git log
 git diff (difference between working tree and index/staged)
 git diff SOURCE_BRANCH TARGET_BRANCH
