@@ -32,6 +32,13 @@ git branch -d BRANCH_NAME (delete branch)
 gitk GUI
 
 
+undo a commit and redo:
+git commit -m "Something terribly misguided"
+git reset --soft HEAD~
+<< edit files as necessary >>
+git add ...
+git commit -c ORIG_HEAD
+
 OTHER:
 .gitignore
 
